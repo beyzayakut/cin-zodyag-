@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+class scratch{
+    public static void main(String[] args){
+        double dogum;
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("dogum tarihini gir: ");
+        dogum=input.nextDouble();
+
+        if (dogum % 12 == 0) {
+            System.out.println("maymun ");
+        }
+        if (dogum % 12 == 1) {
+            System.out.println("horoz ");
+        }
+        if (dogum % 12 == 2) {
+            System.out.println("kopek ");
+        }
+        if (dogum % 12 == 3) {
+            System.out.println("domuz ");
+        }
+        if (dogum % 12 == 4) {
+            System.out.println("fare ");
+        }
+        if (dogum % 12 == 5) {
+            System.out.println("okuz ");
+        }
+        if (dogum % 12 == 6) {
+            System.out.println("kaplan ");
+        }
+        if (dogum % 12 == 7) {
+            System.out.println("tavsan ");
+        }
+        if (dogum % 12 == 8) {
+            System.out.println("ejderha ");
+        }
+        if (dogum % 12 == 9) {
+            System.out.println("yılan ");
+        }
+        if (dogum % 12 == 10) {
+            System.out.println("at ");
+        }
+        if (dogum % 12 == 11) {
+            System.out.println("koyun ");
+        }
+    }
+}
